@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 
 const ProectsSlider = ({ className, ...props }: CardProps) => {
     return (
-        <Card className={cn("col-start-2 col-end-4 row-start-4 row-end-5 p-4", className)} {...props}>
+        <Card className={cn("col-start-2 col-end-4 row-start-4 row-end-5", className)} {...props}>
             <CardTitle>
                 welcome
             </CardTitle>

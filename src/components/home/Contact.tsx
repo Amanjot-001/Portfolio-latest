@@ -10,7 +10,7 @@ import { cn } from "@/lib/utils";
 
 const Contact = ({ className, ...props }: CardProps) => {
     return (
-        <Card className={cn("flex flex-col justify-between col-start-1 col-end-2 row-start-3 row-end-5 p-4", className)} {...props}>
+        <Card className={cn("flex flex-col justify-between col-start-1 col-end-2 row-start-3 row-end-5", className)} {...props}>
             <CardTitle>
                 Let's start working together!
             </CardTitle>
@@ -18,7 +18,12 @@ const Contact = ({ className, ...props }: CardProps) => {
                 <CardTitle className={cn("text-opacity")}>
                     Contact Details
                 </CardTitle>
-                <a href="mailto:amanjotsingh2309@gmail.com">amanjotsingh2309@gmail.com</a>
+                <a 
+                    href="mailto:amanjotsingh2309@gmail.com"
+                    className="break-words"
+                >
+                    amanjotsingh2309@gmail.com
+                </a>
             </CardContent>
             <CardContent className={cn("p-0")}>
                 <CardTitle className={cn("text-opacity")}>

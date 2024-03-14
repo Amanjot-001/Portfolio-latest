@@ -2,7 +2,7 @@ import { Main, About, Contact, Timezone, ProjectsSlider, Education } from "@/com
 
 const Home = () => {
     return (
-        <div className="min-h-screen grid grid-cols-4 grid-rows-4 gap-4 py-8 px-48">
+        <div className="h-screen grid grid-cols-4 grid-rows-4 gap-4 py-8 px-48">
             <Main />
             <About />
             <Contact />
