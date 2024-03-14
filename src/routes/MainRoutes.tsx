@@ -1,4 +1,3 @@
-import Home from 'pages/home';
 import { lazy } from 'react';
 
 const HomePage = lazy(() => import('pages/home'))
