@@ -1,5 +1,5 @@
 import { RouterProvider } from 'react-router-dom'
-import { ThemeProvider } from '@/components/theme-provider'
+import { ThemeProvider } from '@/components/common/theme-provider'
 
 import './styles/App.css'
 import router from '@/routes'
