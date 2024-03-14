@@ -21,7 +21,7 @@
     "noFallthroughCasesInSwitch": true,
 
     /* shacn */
-    "baseUrl": ".",
+    "baseUrl": "src",
     "paths": {
       "@/*": [
         "./src/*"
