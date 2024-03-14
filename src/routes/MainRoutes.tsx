@@ -1,6 +1,6 @@
 import { lazy } from 'react';
 
-const HomePage = lazy(() => import('pages/home'))
+const HomePage = lazy(() => import('@/pages/home'))
 
 const MainRoutes = {
     path: '/',
