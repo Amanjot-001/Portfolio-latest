@@ -12,7 +12,7 @@ const About = ({ className, ...props }: CardProps) => {
     return (
         <Card className={cn("col-start-4 col-end-5 row-start-1 row-end-4 p-4", className)} {...props}>
             <CardTitle>
-                welcome
+                Skills
             </CardTitle>
             <CardDescription>
                 Hi, I'm Gianmarco Cavallo, a software developer with strong focus on the user experience, animations and micro interactions

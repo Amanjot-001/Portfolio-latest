@@ -8,6 +8,8 @@ import {
 } from "@/components/ui/card";
 import { cn } from "@/lib/utils";
 
+type CardProps = React.ComponentProps<typeof Card>
+
 const Education = ({ className, ...props }: CardProps) => {
     return (
         <Card className={cn("col-start-4 col-end-5 row-start-4 row-end-5 p-4", className)} {...props}>
