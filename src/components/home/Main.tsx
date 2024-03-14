@@ -11,9 +11,9 @@ import { cn } from "@/lib/utils";
 const Main = ({ className, ...props }: CardProps) => {
     return (
         <Card className={cn("col-start-1 col-end-4 row-start-1 row-end-3 p-4", className)} {...props}>
-            <CardTitle>
+            <CardContent className="p-0">
                 welcome
-            </CardTitle>
+            </CardContent>
             <CardDescription>
                 Hi, I'm Gianmarco Cavallo, a software developer with strong focus on the user experience, animations and micro interactions
             </CardDescription>
