@@ -1,4 +1,5 @@
 import { Main, About, Contact, Timezone, ProjectsSlider, Education } from "@/components/home";
+import { Experience } from "@/components/home";
 
 const Home = () => {
     return (
@@ -9,6 +10,7 @@ const Home = () => {
             <Timezone />
             <ProjectsSlider />
             <Education />
+            <Experience />
         </div>
     )
 }
