@@ -15,12 +15,12 @@ const Main = ({ className, ...props }: CardProps) => {
                 <CardTitle className="p-0 opacity-20 font-normal text-sm font-Satoshi">
                     welcome
                 </CardTitle>
-                <CardContent className="p-0 text-lg font-Satoshi">
-                    Hi, I'm Amanjot Singh, a fullstack software developer from India. <br />
+                <CardContent className="p-0 text-lg font-Satoshi me-2">
+                    Hi, I'm Amanjot Singh, a fullstack software developer from India. <br /><br />
                     From interactive designs to scaleable backend systems, single-page applications to something more experimental. I build ambitious yet accessible web projects - the wilder, the better.
                 </CardContent>
             </div>
-            <div className="w-1/3 h-full">
+            <div className="w-1/3 h-full p-2 border rounded-md">
                 <img className="object-cover object-center h-full w-full" src="/src/assets/images/profile.jpg" alt="" />
             </div>
         </Card>

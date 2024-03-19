@@ -30,13 +30,14 @@ const Timezone = ({ className, ...props }: CardProps) => {
     });
 
     return (
-        <Card className={cn("col-start-2 col-end-3 row-start-3 row-end-4", className)} {...props}>
+        <Card className={cn("flex flex-col justify-between col-start-2 col-end-3 row-start-3 row-end-4", className)} {...props}>
             <CardTitle>
                 Time zone
             </CardTitle>
-            <CardDescription className={cn("p-0")}>
-                {formattedTime} IST
-            </CardDescription>
+            <div className="font-Satoshi font-bold text-2xl">
+                {formattedTime} <br />
+                IST
+            </div>
         </Card>
     )
 }
