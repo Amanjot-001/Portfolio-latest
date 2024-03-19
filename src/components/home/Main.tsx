@@ -12,10 +12,10 @@ const Main = ({ className, ...props }: CardProps) => {
     return (
         <Card className={cn("flex col-start-1 col-end-4 row-start-1 row-end-3", className)} {...props}>
             <div className="w-2/3">
-                <CardTitle className="p-0 opacity-20 font-normal text-sm">
+                <CardTitle className="p-0 opacity-20 font-normal text-sm font-Satoshi">
                     welcome
                 </CardTitle>
-                <CardContent className="p-0 text-lg">
+                <CardContent className="p-0 text-lg font-Satoshi">
                     Hi, I'm Amanjot Singh, a fullstack software developer from India. <br />
                     From interactive designs to scaleable backend systems, single-page applications to something more experimental. I build ambitious yet accessible web projects - the wilder, the better.
                 </CardContent>

@@ -80,6 +80,11 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
+    fontFamily: {
+      'CabinetGrotesk': 'Cabinet-Grotesk',
+      'Satoshi': 'Satoshi',
+      'SatoshiItalic': 'Satoshi-Italic'
+    }
   },
   plugins: [require("tailwindcss-animate")],
 }
