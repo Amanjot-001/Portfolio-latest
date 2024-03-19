@@ -14,11 +14,16 @@ const Education = ({ className, ...props }: CardProps) => {
     return (
         <Card className={cn("col-start-4 col-end-5 row-start-4 row-end-5", className)} {...props}>
             <CardTitle>
-                welcome
+                Education
             </CardTitle>
-            <CardDescription>
-                Hi, I'm Gianmarco Cavallo, a software developer with strong focus on the user experience, animations and micro interactions
-            </CardDescription>
+            <div>
+                <div>
+                    2021 - 2025
+                </div>
+                <div>
+                    Computer Science Engineering
+                </div>
+            </div>
         </Card>
     )
 }
